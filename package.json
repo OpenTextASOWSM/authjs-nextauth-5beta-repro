@@ -1,0 +1,67 @@
+{
+  "name": "AuthBetaIsBrokenReproduction",
+  "version": "1.0.1",
+  "description": "AuthBetaIsBrokenReproduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs",
+    "npx",
+    "material",
+    "material-design",
+    "material-kit",
+    "material-kit-react",
+    "next-material-kit"
+  ],
+  "dependencies": {
+    "@auth/core": "^0.28.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.10",
+    "@mui/styles": "^5.15.10",
+    "@tanstack/match-sorter-utils": "^8.11.8",
+    "@tanstack/react-table": "^8.12.0",
+    "chart.js": "^4.4.1",
+    "classnames": "2.3.2",
+    "clsx": "^2.1.0",
+    "eslint-config-next": "^14.1.0",
+    "moment": "2.29.4",
+    "next": "^14.1.1",
+    "next-auth": "^5.0.0-beta.15",
+    "nouislider": "14.7.0",
+    "plyr-react": "^5.3.0",
+    "prop-types": "15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-datetime": "3.1.1",
+    "react-dom": "^18.2.0",
+    "react-iframe": "^1.8.5",
+    "react-paginate": "^8.2.0",
+    "react-server-dom-webpack": "^0.0.1",
+    "react-slick": "0.29.0",
+    "sass": "1.66.1",
+    "sharp": "^0.33.2",
+    "styled-components": "5.3.5",
+    "swr": "^2.2.5",
+    "webpack": "5.88.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "typescript": "^5.3.3"
+  }
+}
